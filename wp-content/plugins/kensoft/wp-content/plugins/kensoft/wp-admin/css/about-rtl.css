@@ -617,21 +617,21 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url('https://https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/about-header-about.svg');
+	background-image: url('https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/about-header-about.svg');
 	background-color: var(--accent-2);
 	color: var(--text-light);
 }
 
 .credits-php .about__header {
-	background-image: url('https://https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/about-header-credits.svg');
+	background-image: url('https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/about-header-credits.svg');
 }
 
 .freedoms-php .about__header {
-	background-image: url('https://https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/about-header-freedoms.svg');
+	background-image: url('https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/about-header-freedoms.svg');
 }
 
 .privacy-php .about__header {
-	background-image: url('https://https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/about-header-privacy.svg');
+	background-image: url('https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/about-header-privacy.svg');
 }
 
 .about__header-image {
@@ -938,7 +938,7 @@
 /* WordPress Version Badge */
 
 .wp-badge {
-	background: #0073aa url(https://https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/w-logo-white.png?ver=20160308) no-repeat;
+	background: #0073aa url(https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/w-logo-white.png?ver=20160308) no-repeat;
 	background-position: center 25px;
 	background-size: 80px 80px;
 	color: #fff;
@@ -955,7 +955,7 @@
 }
 
 .svg .wp-badge {
-	background-image: url(https://https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/wordpress-logo-white.svg?ver=20160308);
+	background-image: url(https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/wordpress-logo-white.svg?ver=20160308);
 }
 
 .about-wrap .wp-badge {
@@ -1309,7 +1309,7 @@
 }
 
 .freedoms-php .column .freedoms-image {
-	background-image: url('https://https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/freedoms.png');
+	background-image: url('https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/freedoms.png');
 	background-size: 100%;
 	padding-top: 100%;
 }
