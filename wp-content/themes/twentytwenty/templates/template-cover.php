@@ -1,33 +1,6 @@
-<?php
-/**
- * Template Name: Cover Template
- * Template Post Type: post, page
- *
- * @package WordPress
- * @subpackage Twenty_Twenty
- * @since Twenty Twenty 1.0
- */
-
-get_header();
-?>
-
-<main id="site-content" role="main">
-
-	<?php
-
-	if ( have_posts() ) {
-
-		while ( have_posts() ) {
-			the_post();
-
-			get_template_part( 'template-parts/content-cover' );
-		}
-	}
-
-	?>
-
-</main><!-- #site-content -->
-
-<?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
-
-<?php get_footer(); ?>
+<br>
+<font size="1"><table class="xdebug-error xe-uncaught-exception" dir="ltr" border="1" cellspacing="0" cellpadding="1">
+<tr><th align="left" bgcolor="#f57900" colspan="5">
+<span style="background-color: #cc0000; color: #fce94f; font-size: x-large;">( ! )</span> Fatal error: Uncaught Error: Call to undefined function get_header() in /Users/chukwunonsoeweni/Local Sites/kensoft/app/public/wp-content/themes/twentytwenty/templates/template-cover.php on line <i>11</i>
+</th></tr>
+</table></font>

@@ -1,32 +1,6 @@
-<?php
-/**
- * The template for displaying Current Discussion on posts
- *
- * @package WordPress
- * @subpackage Twenty_Nineteen
- * @since Twenty Nineteen 1.0
- */
-
-/* Get data from current discussion on post. */
-$discussion    = twentynineteen_get_discussion_data();
-$has_responses = $discussion->responses > 0;
-
-if ( $has_responses ) {
-	/* translators: %d: Number of comments. */
-	$meta_label = sprintf( _n( '%d Comment', '%d Comments', $discussion->responses, 'twentynineteen' ), $discussion->responses );
-} else {
-	$meta_label = __( 'No comments', 'twentynineteen' );
-}
-?>
-
-<div class="discussion-meta">
-	<?php
-	if ( $has_responses ) {
-		twentynineteen_discussion_avatars_list( $discussion->authors );
-	}
-	?>
-	<p class="discussion-meta-info">
-		<?php echo twentynineteen_get_icon_svg( 'comment', 24 ); ?>
-		<span><?php echo esc_html( $meta_label ); ?></span>
-	</p>
-</div><!-- .discussion-meta -->
+<br>
+<font size="1"><table class="xdebug-error xe-uncaught-exception" dir="ltr" border="1" cellspacing="0" cellpadding="1">
+<tr><th align="left" bgcolor="#f57900" colspan="5">
+<span style="background-color: #cc0000; color: #fce94f; font-size: x-large;">( ! )</span> Fatal error: Uncaught Error: Call to undefined function twentynineteen_get_discussion_data() in /Users/chukwunonsoeweni/Local Sites/kensoft/app/public/wp-content/themes/twentynineteen/template-parts/post/discussion-meta.php on line <i>11</i>
+</th></tr>
+</table></font>

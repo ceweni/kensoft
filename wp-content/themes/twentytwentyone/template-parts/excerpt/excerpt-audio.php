@@ -1,23 +1,6 @@
-<?php
-/**
- * Show the appropriate content for the Audio post format.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
- */
-
-$content = get_the_content();
-
-if ( has_block( 'core/audio', $content ) ) {
-	twenty_twenty_one_print_first_instance_of_block( 'core/audio', $content );
-} elseif ( has_block( 'core/embed', $content ) ) {
-	twenty_twenty_one_print_first_instance_of_block( 'core/embed', $content );
-} else {
-	twenty_twenty_one_print_first_instance_of_block( 'core-embed/*', $content );
-}
-
-// Add the excerpt.
-the_excerpt();
+<br>
+<font size="1"><table class="xdebug-error xe-uncaught-exception" dir="ltr" border="1" cellspacing="0" cellpadding="1">
+<tr><th align="left" bgcolor="#f57900" colspan="5">
+<span style="background-color: #cc0000; color: #fce94f; font-size: x-large;">( ! )</span> Fatal error: Uncaught Error: Call to undefined function get_the_content() in /Users/chukwunonsoeweni/Local Sites/kensoft/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-audio.php on line <i>12</i>
+</th></tr>
+</table></font>

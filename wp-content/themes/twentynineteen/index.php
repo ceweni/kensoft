@@ -1,47 +1,6 @@
-<?php
-/**
- * The main template file
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Nineteen
- * @since Twenty Nineteen 1.0
- */
-
-get_header();
-?>
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
-
-		<?php
-		if ( have_posts() ) {
-
-			// Load posts loop.
-			while ( have_posts() ) {
-				the_post();
-				get_template_part( 'template-parts/content/content' );
-			}
-
-			// Previous/next page navigation.
-			twentynineteen_the_posts_navigation();
-
-		} else {
-
-			// If no content, include the "No posts found" template.
-			get_template_part( 'template-parts/content/content', 'none' );
-
-		}
-		?>
-
-		</main><!-- .site-main -->
-	</div><!-- .content-area -->
-
-<?php
-get_footer();
+<br>
+<font size="1"><table class="xdebug-error xe-uncaught-exception" dir="ltr" border="1" cellspacing="0" cellpadding="1">
+<tr><th align="left" bgcolor="#f57900" colspan="5">
+<span style="background-color: #cc0000; color: #fce94f; font-size: x-large;">( ! )</span> Fatal error: Uncaught Error: Call to undefined function get_header() in /Users/chukwunonsoeweni/Local Sites/kensoft/app/public/wp-content/themes/twentynineteen/index.php on line <i>17</i>
+</th></tr>
+</table></font>

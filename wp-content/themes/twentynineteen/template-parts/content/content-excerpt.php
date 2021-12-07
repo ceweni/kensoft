@@ -1,33 +1,5 @@
-<?php
-/**
- * Template part for displaying post archives and search results
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Nineteen
- * @since Twenty Nineteen 1.0
- */
+<article id="post-<br />
+<font size='1'><table class='xdebug-error xe-uncaught-exception' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="><span style="background-color: #cc0000; color: #fce94f; font-size: x-large;">( ! )</span> Fatal error: Uncaught Error: Call to undefined function the_ID() in /Users/chukwunonsoeweni/Local Sites/kensoft/app/public/wp-content/themes/twentynineteen/template-parts/content/content-excerpt.php on line <i>14</i>
 
-?>
-
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php
-		if ( is_sticky() && is_home() && ! is_paged() ) {
-			printf( '<span class="sticky-post">%s</span>', _x( 'Featured', 'post', 'twentynineteen' ) );
-		}
-		the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
-		?>
-	</header><!-- .entry-header -->
-
-	<?php twentynineteen_post_thumbnail(); ?>
-
-	<div class="entry-content">
-		<?php the_excerpt(); ?>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php twentynineteen_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->
+</article>

@@ -1,30 +1,6 @@
-<?php
-/**
- * The template for displaying Author info
- *
- * @package WordPress
- * @subpackage Twenty_Nineteen
- * @since Twenty Nineteen 1.0
- */
-
-if ( (bool) get_the_author_meta( 'description' ) ) : ?>
-<div class="author-bio">
-	<h2 class="author-title">
-		<span class="author-heading">
-			<?php
-			printf(
-				/* translators: %s: Post author. */
-				__( 'Published by %s', 'twentynineteen' ),
-				esc_html( get_the_author() )
-			);
-			?>
-		</span>
-	</h2>
-	<p class="author-description">
-		<?php the_author_meta( 'description' ); ?>
-		<a class="author-link" href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" rel="author">
-			<?php _e( 'View more posts', 'twentynineteen' ); ?>
-		</a>
-	</p><!-- .author-description -->
-</div><!-- .author-bio -->
-<?php endif; ?>
+<br>
+<font size="1"><table class="xdebug-error xe-uncaught-exception" dir="ltr" border="1" cellspacing="0" cellpadding="1">
+<tr><th align="left" bgcolor="#f57900" colspan="5">
+<span style="background-color: #cc0000; color: #fce94f; font-size: x-large;">( ! )</span> Fatal error: Uncaught Error: Call to undefined function get_the_author_meta() in /Users/chukwunonsoeweni/Local Sites/kensoft/app/public/wp-content/themes/twentynineteen/template-parts/post/author-bio.php on line <i>10</i>
+</th></tr>
+</table></font>

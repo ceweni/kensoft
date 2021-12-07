@@ -1,21 +1,6 @@
-<?php
-/**
- * Displays the site header.
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
- */
-
-$wrapper_classes  = 'site-header';
-$wrapper_classes .= has_custom_logo() ? ' has-logo' : '';
-$wrapper_classes .= ( true === get_theme_mod( 'display_title_and_tagline', true ) ) ? ' has-title-and-tagline' : '';
-$wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
-?>
-
-<header id="masthead" class="<?php echo esc_attr( $wrapper_classes ); ?>" role="banner">
-
-	<?php get_template_part( 'template-parts/header/site-branding' ); ?>
-	<?php get_template_part( 'template-parts/header/site-nav' ); ?>
-
-</header><!-- #masthead -->
+<br>
+<font size="1"><table class="xdebug-error xe-uncaught-exception" dir="ltr" border="1" cellspacing="0" cellpadding="1">
+<tr><th align="left" bgcolor="#f57900" colspan="5">
+<span style="background-color: #cc0000; color: #fce94f; font-size: x-large;">( ! )</span> Fatal error: Uncaught Error: Call to undefined function has_custom_logo() in /Users/chukwunonsoeweni/Local Sites/kensoft/app/public/wp-content/themes/twentytwentyone/template-parts/header/site-header.php on line <i>11</i>
+</th></tr>
+</table></font>

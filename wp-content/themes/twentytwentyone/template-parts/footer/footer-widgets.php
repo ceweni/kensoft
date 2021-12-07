@@ -1,16 +1,6 @@
-<?php
-/**
- * Displays the footer widget area.
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
- */
-
-if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
-
-	<aside class="widget-area">
-		<?php dynamic_sidebar( 'sidebar-1' ); ?>
-	</aside><!-- .widget-area -->
-
-<?php endif; ?>
+<br>
+<font size="1"><table class="xdebug-error xe-uncaught-exception" dir="ltr" border="1" cellspacing="0" cellpadding="1">
+<tr><th align="left" bgcolor="#f57900" colspan="5">
+<span style="background-color: #cc0000; color: #fce94f; font-size: x-large;">( ! )</span> Fatal error: Uncaught Error: Call to undefined function is_active_sidebar() in /Users/chukwunonsoeweni/Local Sites/kensoft/app/public/wp-content/themes/twentytwentyone/template-parts/footer/footer-widgets.php on line <i>10</i>
+</th></tr>
+</table></font>
