@@ -669,7 +669,7 @@ p.search-box {
 
 input[type="text"].ui-autocomplete-loading,
 input[type="email"].ui-autocomplete-loading {
-	background-image: url(https://https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/loading.gif);
+	background-image: url(https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/loading.gif);
 	background-repeat: no-repeat;
 	background-position: right center;
 	visibility: visible;

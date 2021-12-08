@@ -2296,7 +2296,7 @@ h1.nav-tab-wrapper, /* Back-compat for pre-4.4 */
 ------------------------------------------------------------------------------*/
 
 .spinner {
-	background: url(https://https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/spinner.gif) no-repeat;
+	background: url(https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/spinner.gif) no-repeat;
 	background-size: 20px 20px;
 	display: inline-block;
 	visibility: hidden;
@@ -2510,11 +2510,11 @@ div.star-holder {
 	position: relative;
 	height: 17px;
 	width: 100px;
-	background: url(https://https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/stars.png?ver=20121108) repeat-x bottom right;
+	background: url(https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/stars.png?ver=20121108) repeat-x bottom right;
 }
 
 div.star-holder .star-rating {
-	background: url(https://https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/stars.png?ver=20121108) repeat-x top right;
+	background: url(https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/stars.png?ver=20121108) repeat-x top right;
 	height: 17px;
 	float: right;
 }
@@ -2998,7 +2998,7 @@ div.action-links {
 	top: 50%;
 	z-index: -1;
 	margin: -10px -10px 0 0;
-	background: #fff url(https://https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/spinner.gif) no-repeat center;
+	background: #fff url(https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/spinner.gif) no-repeat center;
 	background-size: 20px 20px;
 	transform: translateZ(0);
 }
@@ -3008,7 +3008,7 @@ div.action-links {
 	(min-resolution: 120dpi) {
 
 	#TB_window.plugin-details-modal.thickbox-loading:before {
-		background-image: url(https://https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/spinner-2x.gif);
+		background-image: url(https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/spinner-2x.gif);
 	}
 }
 
@@ -3748,12 +3748,12 @@ img {
 	/* Back-compat for pre-3.8 */
 	div.star-holder,
 	div.star-holder .star-rating {
-		background: url(https://https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/stars-2x.png?ver=20121108) repeat-x bottom right;
+		background: url(https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/stars-2x.png?ver=20121108) repeat-x bottom right;
 		background-size: 21px 37px;
 	}
 
 	.spinner {
-		background-image: url(https://https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/spinner-2x.gif);
+		background-image: url(https://ceweni.github.io/kensoft/wp-content/plugins/kensoft/wp-admin/images/spinner-2x.gif);
 	}
 
 }
